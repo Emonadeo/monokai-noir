@@ -18,4 +18,4 @@
 
 #### Filter Spectrum:
 
-![Filter Spectrum]screenshots/spectrum.png)
+![Filter Spectrum](screenshots/spectrum.png)
