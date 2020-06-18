@@ -1,0 +1,19 @@
+{
+  "name": "Monokai Pro (Filter Machine)",
+  "colors": {
+    "red": "ff6d7e",
+    "orange": "ffb270",
+    "yellow": "ffed72",
+    "green": "a2e57b",
+    "blue": "7cd5f1",
+    "purple": "baa0f8",
+    "base03": "1d2528",
+    "base02": "273136",
+    "base01": "2f393d",
+    "base00": "3a4449",
+    "base0": "545f62",
+    "base1": "6b7678",
+    "base2": "798384",
+    "base3": "f2fffc"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Monokai Pro (Filter Octagon)",
+  "colors": {
+    "red": "ff657a",
+    "orange": "ff9b5e",
+    "yellow": "ffd76d",
+    "green": "bad761",
+    "blue": "9cd1bb",
+    "purple": "c39ac9",
+    "base03": "1e1f2b",
+    "base02": "282a3a",
+    "base01": "2e3140",
+    "base00": "3a3d4b",
+    "base0": "535763",
+    "base1": "696d77",
+    "base2": "767b81",
+    "base3": "eaf2f1"
+  }
+}

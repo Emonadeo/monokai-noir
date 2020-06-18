@@ -1,0 +1,19 @@
+{
+  "name": "Monokai Pro (Filter Spectrum)",
+  "colors": {
+    "red": "fc618d",
+    "orange": "fd9353",
+    "yellow": "fce566",
+    "green": "7bd88f",
+    "blue": "5ad4e6",
+    "purple": "948ae3",
+    "base03": "191919",
+    "base02": "222222",
+    "base01": "2c2c2c",
+    "base00": "363537",
+    "base0": "525053",
+    "base1": "69676c",
+    "base2": "8b888f",
+    "base3": "f7f1ff"
+  }
+}
