@@ -8,7 +8,7 @@ Supported apps:
 To build the theme, use [Thematic](https://github.com/thematic-dev/thematic):
 
 ```shell script
-python thematic.py build .
+$ python thematic.py build .
 ```
 
 To learn more, read the Thematic [docs](https://thematic.dev/documentation.html).
