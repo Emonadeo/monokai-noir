@@ -1,8 +1,7 @@
 <idea-plugin>
-  <id>{{id}}</id>
-  <!-- added 'Theme' to name for SEO -->
-  <name>{{name}} Theme</name>
-  <version>{{version}}</version>
+  <id>monokai-pro</id>
+  <name>Monokai Pro Theme</name>
+  <version>0.6</version>
   <vendor url="https://thematic.dev">Thematic</vendor>
 
   <description>
@@ -27,8 +26,10 @@
   <depends>com.intellij.modules.lang</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    {% for color in colors %}
-    <themeProvider id="{{color.id}}" path="/{{color.id}}.json"/>
-    {% endfor %}
+    <themeProvider id="monokai-pro" path="/monokai-pro.json"/>
+    <themeProvider id="monokai-pro-machine" path="/monokai-pro-machine.json"/>
+    <themeProvider id="monokai-pro-octagon" path="/monokai-pro-octagon.json"/>
+    <themeProvider id="monokai-pro-ristretto" path="/monokai-pro-ristretto.json"/>
+    <themeProvider id="monokai-pro-spectrum" path="/monokai-pro-spectrum.json"/>
   </extensions>
 </idea-plugin>

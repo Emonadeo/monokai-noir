@@ -2,22 +2,22 @@
   "name": "{{name}}",
   "dark": true,
   "author": "Thematic",
-  "editorScheme": "/themes/{{id}}.xml",
+  "editorScheme": "/themes/{{filename}}.xml",
   "colors": {
-    "red": "{{red}}",
-    "orange": "{{orange}}",
-    "yellow": "{{yellow}}",
-    "green": "{{green}}",
-    "blue": "{{blue}}",
-    "purple": "{{purple}}",
-    "base03": "{{base03}}",
-    "base02": "{{base02}}",
-    "base01": "{{base01}}",
-    "base00": "{{base00}}",
-    "base0": "{{base0}}",
-    "base1": "{{base1}}",
-    "base2": "{{base2}}",
-    "base3": "{{base3}}"
+    "base03": "{{colors.base03}}",
+    "base02": "{{colors.base02}}",
+    "base01": "{{colors.base01}}",
+    "base00": "{{colors.base00}}",
+    "base0": "{{colors.base0}}",
+    "base1": "{{colors.base1}}",
+    "base2": "{{colors.base2}}",
+    "base3": "{{colors.base3}}",
+    "red": "{{colors.red}}",
+    "orange": "{{colors.orange}}",
+    "yellow": "{{colors.yellow}}",
+    "green": "{{colors.green}}",
+    "blue": "{{colors.blue}}",
+    "purple": "{{colors.purple}}"
   },
   "ui": {
     "*": {
@@ -46,8 +46,10 @@
       "pressedBackground": "base00",
       "pressedBorderColor": "base00"
     },
-    "Borders.ContrastBorderColor": "base01",
-    "Borders.color": "base01",
+    "Borders": {
+      "ContrastBorderColor": "base01",
+      "color": "base01"
+    },
     "Button": {
       "arc": 0,
       "background": "base02",
@@ -64,13 +66,13 @@
       "disabledBorderColor": "base00",
       "disabledText": "base0",
       "endBackground": "base00",
-      "endBorderColor": "base00",
+      "endBorderColor": "base01",
       "focusedBorderColor": "yellow",
       "foreground": "base2",
-      "startBackground": "base00",
-      "startBorderColor": "base00",
       "shadowColor": "base00",
-      "shadowWidth": 0
+      "shadowWidth": 0,
+      "startBackground": "base00",
+      "startBorderColor": "base01"
     },
     "CheckBox": {
       "background": "base02",
@@ -93,7 +95,9 @@
       "foreground": "base3",
       "swatchesDefaultRecentColor": "base3"
     },
-    "ComboBoxButton.background": "base00",
+    "ComboBoxButton": {
+      "background": "base01"
+    },
     "ComboBox": {
       "ArrowButton": {
         "background": "base00",
@@ -109,7 +113,9 @@
       "selectionBackground": "base00",
       "selectionForeground": "yellow"
     },
-    "ComboPopup.border": "base02",
+    "ComboPopup": {
+      "border": "base02"
+    },
     "CompletionPopup": {
       "foreground": "base3",
       "matchForeground": "yellow",
@@ -203,7 +209,9 @@
       "borderColor": "base02",
       "infoForeground": "base2"
     },
-    "InformationHint.borderColor": "base02",
+    "InformationHint": {
+      "borderColor": "base02"
+    },
     "InplaceRefactoringPopup": {
       "borderColor": "base02"
     },
@@ -242,8 +250,8 @@
       "disabledBackground": "base00",
       "disabledForeground": "base0",
       "foreground": "base3",
-      "selectionForeground": "yellow",
-      "separatorColor": "base02"
+      "separatorColor": "base02",
+      "selectionForeground": "yellow"
     },
     "MenuBar": {
       "borderColor": "base02",
@@ -373,8 +381,10 @@
       "foreground": "base3",
       "translucentBackground": "base02"
     },
-    "PopupMenuSeparator.height": 10,
-    "PopupMenuSeparator.stripeIndent": 5,
+    "PopupMenuSeparator": {
+      "height": 10,
+      "stripeIndent": 5
+    },
     "ProgressBar": {
       "background": "base02",
       "foreground": "yellow",
@@ -442,8 +452,8 @@
         "background": "base02"
       },
       "List": {
-        "separatorForeground": "base2",
-        "separatorColor": "base02"
+        "separatorColor": "base02",
+        "separatorForeground": "base2"
       },
       "SearchField": {
         "background": "base02",
@@ -476,8 +486,8 @@
     "SpeedSearch": {
       "background": "base0",
       "borderColor": "base02",
-      "foreground": "base3",
-      "errorForeground": "base3"
+      "errorForeground": "base3",
+      "foreground": "base3"
     },
     "Spinner": {
       "background": "base02"
@@ -486,7 +496,9 @@
       "background": "base02",
       "highlight": "base03"
     },
-    "SplitPaneDivider.draggingColor": "base00",
+    "SplitPaneDivider": {
+      "draggingColor": "base00"
+    },
     "StatusBar": {
       "borderColor": "base01",
       "hoverBackground": "base01"
@@ -499,7 +511,7 @@
       "focus": "base00",
       "focusColor": "base00",
       "foreground": "base3",
-      "hoverColor": "base0",
+      "hoverColor": "base01",
       "tabSelectionHeight": 2,
       "underlineColor": "yellow"
     },
@@ -561,7 +573,9 @@
       "infoForeground": "base2",
       "inactiveInfoForeground": "base2"
     },
-    "TitledBorder.titleColor": "base02",
+    "TitledBorder": {
+      "titleColor": "base02"
+    },
     "ToggleButton": {
       "borderColor": "base00",
       "buttonColor": "base3",
@@ -579,8 +593,10 @@
       "foreground": "base3"
     },
     "ToolTip": {
-      "Actions.background": "base02",
-      "Actions.infoForeground": "base2",
+      "Actions": {
+        "background": "base02",
+        "infoForeground": "base2"
+      },
       "background": "base02",
       "borderColor": "base0",
       "foreground": "base3",
@@ -591,7 +607,7 @@
       "Button": {
         "hoverBackground": "base01",
         "selectedForeground": "yellow",
-        "selectedBackground": "base02"
+        "selectedBackground": "base01"
       },
       "Header": {
         "background": "base02",
@@ -622,8 +638,12 @@
       "selectionInactiveBackground": "base02"
     },
     "UiDesigner": {
-      "Panel.background": "base02",
-      "Preview.background": "base02"
+      "Panel": {
+        "background": "base02"
+      },
+      "Preview": {
+        "background": "base02"
+      }
     },
     "ValidationTooltip": {
       "errorBackground": "base01",
@@ -632,8 +652,10 @@
       "warningBorderColor": "base01"
     },
     "VersionControl": {
-      "FileHistory.Commit": {
-        "selectedBranchBackground": "base02"
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "base02"
+        }
       },
       "GitLog": {
         "localBranchIconColor": "yellow",
@@ -651,8 +673,10 @@
         "tipIconColor": "base2"
       },
       "Log": {
-        "Commit.unmatchedForeground": "base2",
-        "Commit.currentBranchBackground": "base01"
+        "Commit": {
+          "unmatchedForeground": "base2",
+          "currentBranchBackground": "base01"
+        }
       },
       "RefLabel": {
         "foreground": "yellow",
@@ -672,16 +696,18 @@
       "footerForeground": "base3",
       "headerBackground": "base02",
       "headerForeground": "base3",
-      "separatorColor": "base01",
       "Projects": {
         "background": "base03",
         "selectionBackground": "base02",
         "selectionInactiveBackground": "base02"
-      }
+      },
+      "separatorColor": "base01"
     },
     "window": "base02",
+    "Window": {
+      "border": "0,0,0,0,base01"
+    },
     "windowBorder": "base01",
-    "windowText": "base2",
-    "Window.border": "0,0,0,0,base01"
+    "windowText": "base2"
   }
 }

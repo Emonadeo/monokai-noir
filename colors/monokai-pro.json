@@ -1,19 +1,20 @@
 {
   "name": "Monokai Pro",
+  "template": "dark",
   "colors": {
-    "red": "ff6188",
-    "orange": "fc9867",
-    "yellow": "ffd866",
-    "green": "a9dc76",
-    "blue": "78dce8",
-    "purple": "ab9df2",
-    "base03": "221f22",
-    "base02": "2d2a2e",
-    "base01": "373438",
-    "base00": "403e41",
-    "base0": "5b595c",
-    "base1": "727072",
-    "base2": "939293",
-    "base3": "fcfcfa"
+    "red": "#ff6188",
+    "orange": "#fc9867",
+    "yellow": "#ffd866",
+    "green": "#a9dc76",
+    "blue": "#78dce8",
+    "purple": "#ab9df2",
+    "base03": "#221f22",
+    "base02": "#2d2a2e",
+    "base01": "#373438",
+    "base00": "#403e41",
+    "base0": "#5b595c",
+    "base1": "#727072",
+    "base2": "#939293",
+    "base3": "#fcfcfa"
   }
 }
