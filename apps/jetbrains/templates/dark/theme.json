@@ -188,6 +188,9 @@
       "underlinedTabBackground": "base02",
       "underlinedTabForeground": "base2"
     },
+    "FileColor": {
+      "Yellow": "00000000"
+    },
     "FormattedTextField": {
       "background": "base03",
       "caretForeground": "yellow",
@@ -231,9 +234,9 @@
       "visitedForeground": "yellow"
     },
     "List": {
-      "background": "base03",
+      "background": "base02",
       "foreground": "base2",
-      "selectionBackground": "base02",
+      "selectionBackground": "base03",
       "selectionForeground": "yellow",
       "selectionInactiveBackground": "base02",
       "selectionInactiveForeground": "base2"
@@ -361,14 +364,14 @@
         "borderColor": "base02",
         "foreground": "yellow"
       },
-      "borderColor": "base02",
+      "borderColor": "base03",
       "inactiveBorderColor": "base02",
       "innerBorderColor": "base02",
       "Header": {
         "activeBackground": "base02",
         "inactiveBackground": "base03"
       },
-      "paintBorder": false,
+      "paintBorder": true,
       "separatorForeground": "base3",
       "separatorColor": "base02",
       "Toolbar": {

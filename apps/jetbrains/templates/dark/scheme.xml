@@ -1069,27 +1069,28 @@
                 <option name="FOREGROUND" value="9373a5" />
             </value>
         </option>
-        <option name="JAVA.IMPORT_PACKAGE">
+         <option name="JAVA.IMPORT_PACKAGE">
             <value>
-                <option name="FOREGROUND" value="{{colors.blue}}" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FOREGROUND" value="{{colors.blue}}"/>
+                <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
         <option name="JAVA.STATIC_FINAL">
             <value>
-                <option name="FOREGROUND" value="{{colors.blue}}" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FOREGROUND" value="{{colors.blue}}"/>
+                <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
         <option name="JAVA.THIS_SUPER">
             <value>
-                <option name="FOREGROUND" value="c1c0c0" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FOREGROUND" value="c1c0c0"/>
+                <option name="FONT_TYPE" value="2"/>
             </value>
         </option>
+        <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD"/>
         <option name="JAVA_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="{{colors.blue}}" />
+                <option name="FOREGROUND" value="{{colors.blue}}"/>
             </value>
         </option>
         <option name="JFLEX_MACROS_REF">
@@ -3530,7 +3531,7 @@
         </option>
         <option name="VELOCITY_SCRIPTING_BACKGROUND">
             <value>
-                <option name="BACKGROUND" value="{{colors.base3}}" />
+                <option name="BACKGROUND" value="{{colors.base01}}" />
             </value>
         </option>
         <option name="WARNING_ATTRIBUTES">
