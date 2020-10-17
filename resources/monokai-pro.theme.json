@@ -35,8 +35,7 @@
       "color": "#2b2b2b"
     },
     "Button": {
-      "arc": 0,
-      "background": "#363537",
+      "arc": 4,
       "default": {
         "endBackground": "#2b2b2b",
         "endBorderColor": "#2b2b2b",
@@ -103,8 +102,8 @@
     "CompletionPopup": {
       "foreground": "#f7f1ff",
       "matchForeground": "#64ffff",
-      "selectionInactiveBackground": "#69676c",
-      "selectionBackground": "#69676c"
+      "selectionInactiveBackground": "#363537",
+      "selectionBackground": "#363537"
     },
     "Component": {
       "arc": 4,
