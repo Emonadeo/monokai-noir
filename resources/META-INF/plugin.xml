@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>monokai-pro</id>
     <name>Monokai Pro Theme</name>
-    <version>0.9.2</version>
+    <version>0.9.3</version>
     <vendor url="https://github.com/emonadeo">Emonadeo</vendor>
 
     <description>
