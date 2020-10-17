@@ -11,7 +11,7 @@
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="f7f1ff" />
     <option name="CARET_ROW_COLOR" value="2b2b2b" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="222222" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="212121" />
     <option name="DELETED_LINES_COLOR" value="fc618d" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
@@ -37,7 +37,7 @@
     <option name="FILESTATUS_addedOutside" value="7bd88f" />
     <option name="FILESTATUS_changelistConflict" value="f65f87" />
     <option name="FILESTATUS_modifiedOutside" value="5ad4e6" />
-    <option name="GUTTER_BACKGROUND" value="222222" />
+    <option name="GUTTER_BACKGROUND" value="212121" />
     <option name="INDENT_GUIDE" value="2b2b2b" />
     <option name="INFORMATION_HINT" value="2b2b2b" />
     <option name="LINE_NUMBERS_COLOR" value="525053" />
@@ -60,21 +60,21 @@
     <option name="SEPARATOR_BELOW_COLOR" value="2b2b2b" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="363537" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="363537" />
-    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="222222" />
+    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="212121" />
     <option name="ScrollBar.Mac.Transparent.thumbColor" value="363537" />
-    <option name="ScrollBar.Mac.Transparent.trackColor" value="222222" />
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="212121" />
     <option name="ScrollBar.Mac.hoverThumbColor" value="363537" />
-    <option name="ScrollBar.Mac.hoverTrackColor" value="222222" />
+    <option name="ScrollBar.Mac.hoverTrackColor" value="212121" />
     <option name="ScrollBar.Mac.thumbColor" value="363537" />
-    <option name="ScrollBar.Mac.trackColor" value="222222" />
+    <option name="ScrollBar.Mac.trackColor" value="212121" />
     <option name="ScrollBar.Transparent.hoverThumbColor" value="363537" />
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="222222" />
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="212121" />
     <option name="ScrollBar.Transparent.thumbColor" value="363537" />
-    <option name="ScrollBar.Transparent.trackColor" value="222222" />
+    <option name="ScrollBar.Transparent.trackColor" value="212121" />
     <option name="ScrollBar.hoverThumbColor" value="363537" />
-    <option name="ScrollBar.hoverTrackColor" value="222222" />
+    <option name="ScrollBar.hoverTrackColor" value="212121" />
     <option name="ScrollBar.thumbColor" value="363537" />
-    <option name="ScrollBar.trackColor" value="222222" />
+    <option name="ScrollBar.trackColor" value="212121" />
     <option name="TAB_UNDERLINE" value="fce566" />
     <option name="TAB_UNDERLINE_INACTIVE" value="fce566" />
     <option name="TEARLINE_COLOR" value="2b2b2b" />
@@ -172,7 +172,7 @@
     <option name="BREADCRUMBS_DEFAULT">
       <value>
         <option name="FOREGROUND" value="939393" />
-        <option name="BACKGROUND" value="222222" />
+        <option name="BACKGROUND" value="212121" />
       </value>
     </option>
     <option name="BREADCRUMBS_HOVERED">
@@ -184,7 +184,7 @@
     <option name="BREADCRUMBS_INACTIVE">
       <value>
         <option name="FOREGROUND" value="525053" />
-        <option name="BACKGROUND" value="222222" />
+        <option name="BACKGROUND" value="212121" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -2896,17 +2896,17 @@
     </option>
     <option name="REST.FIXED">
       <value>
-        <option name="BACKGROUND" value="222222" />
+        <option name="BACKGROUND" value="212121" />
       </value>
     </option>
     <option name="REST.INLINE">
       <value>
-        <option name="BACKGROUND" value="222222" />
+        <option name="BACKGROUND" value="212121" />
       </value>
     </option>
     <option name="REST.INTERPRETED">
       <value>
-        <option name="BACKGROUND" value="222222" />
+        <option name="BACKGROUND" value="212121" />
       </value>
     </option>
     <option name="RHTML_EXPRESSION_END_ID">
@@ -3006,7 +3006,7 @@
     <option name="RUBY_HEREDOC_CONTENT">
       <value>
         <option name="FOREGROUND" value="f7f1ff" />
-        <option name="BACKGROUND" value="222222" />
+        <option name="BACKGROUND" value="212121" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
