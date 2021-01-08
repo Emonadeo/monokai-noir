@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>monokai-pro</id>
     <name>Monokai Pro Theme</name>
-    <version>0.9.3</version>
+    <version>1.0.0</version>
     <vendor url="https://github.com/emonadeo">Emonadeo</vendor>
 
     <description>
@@ -15,6 +15,6 @@
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="b8abb5dc-b0c9-4d20-97f7-ec5cde31cfd7" path="/monokai-pro.theme.json"/>
+        <themeProvider id="3c63696a-f7f9-4f30-8b5c-1e99e0fe08ce" path="/monokai-pro.theme.json"/>
     </extensions>
 </idea-plugin>
