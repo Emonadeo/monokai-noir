@@ -1,8 +1,8 @@
 {
-  "name": "Monokai Pro",
+  "name": "Monokai Noir",
   "dark": true,
-  "author": "Subtheme",
-  "editorScheme": "/themes/monokai-pro.xml",
+  "author": "Emonadeo",
+  "editorScheme": "/themes/monokai-noir.xml",
   "ui": {
     "*": {
       "acceleratorSelectionForeground": "#64ffff",
